@@ -32,7 +32,7 @@ body {
 }
 .title {
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff
@@ -66,12 +66,15 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.team {
+    background-color: #F4F4FD
+}
 .title-two {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .image {
