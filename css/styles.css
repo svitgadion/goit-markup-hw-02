@@ -3,6 +3,12 @@ body {
     color: #434455; 
     background-color: #FFFFFF;
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 .logo {
     font-family: "Raleway", sans-serif; 
     font-weight: 700; 
@@ -40,11 +46,11 @@ span.word {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .post:hover,
 .post:focus{
-    color: #404bbf
+    color: #404BBF
 }
 .fon {
     background-color: #2E2F42
@@ -75,7 +81,7 @@ span.word {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .text {
     font-size: 16px;
@@ -92,7 +98,7 @@ span.word {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .image {
     background: #FFFFFF;
@@ -103,7 +109,7 @@ span.word {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 } 
 .profession {
     font-family: "Roboto", sans-serif;
@@ -118,7 +124,7 @@ span.word {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .profession-one {
     font-size: 16px;
