@@ -26,10 +26,10 @@ span.word {
 }
 .post-contakt {
     font-size: 16px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-.post-contakt:hover
+.post-contakt:hover,
 .post-contakt:focus{
     color: #404BBF;
 }
@@ -41,10 +41,8 @@ span.word {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.post:hover{
-    color: #404bbf
-}
-.post:focus {
+.post:hover,
+.post:focus{
     color: #404bbf
 }
 .fon {
@@ -67,7 +65,7 @@ span.word {
     color: #FFFFFF;
     cursor: pointer;
 }
-.post-link :hover
+.post-link :hover,
 .post-link :focus{
     background-color:#404BBF
 }
@@ -129,4 +127,20 @@ span.word {
 }
 .down {
     background: #2e2f42;
+}
+.link-down{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+span.word-down {
+    color: #F4F4FD;
+}
+.down-ph {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
