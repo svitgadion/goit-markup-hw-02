@@ -1,23 +1,37 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
+    font-family: "Roboto", sans-serif; 
+    color: #434455; 
     background-color: #FFFFFF;
 }
-.link {
+.logo {
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    font-size: 18px; 
+    line-height: 1.17; 
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+span.word {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-
-}
-.word {
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .contakt {
     font-style: normal
+}
+.post-contakt {
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: #434455;
+}
+.post-contakt:hover
+.post-contakt:focus{
+    color: #404BBF;
 }
 .post {
     font-family: "Roboto", sans-serif;
@@ -27,15 +41,21 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.post:hover{
+    color: #404bbf
+}
+.post:focus {
+    color: #404bbf
+}
 .fon {
-    background-color: #2e2f42
+    background-color: #2E2F42
 }
 .title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff
+    color: #FFFFFF
     }
 .post-link {
     background-color: #4D5AE5;
@@ -44,15 +64,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: #FFFFFF;
     cursor: pointer;
 }
-.post-link :hover{
+.post-link :hover
+.post-link :focus{
     background-color:#404BBF
 }
-.post-link :focus{
-    background-color: #404BBF
-    }
 .title-one{
     font-weight: 500;
     font-size: 20px;
